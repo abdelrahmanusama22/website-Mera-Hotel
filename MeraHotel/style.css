@@ -1,0 +1,414 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .logo h1 {
+    margin-left: 10px;
+  }
+  
+  /* Sticky Navbar */
+/* Sticky Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(98, 97, 97, 0.8); 
+  z-index: 1000; /* Ensure the navbar is above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333; /* Change the text color as needed */
+}
+
+#navbar ul li a:hover {
+  background-color: #f4f4f4; /* Change the hover background color as needed */
+  color: #555; /* Change the hover text color as needed */
+}
+
+/* Ensure content below the navbar doesn't jump when the navbar becomes fixed */
+body {
+  padding-top: 70px; /* Adjust this value based on your navbar height */
+}
+
+/* Change background color on hover */
+#navbar:hover {
+  background-color: rgba(255, 255, 255, 1); /* Solid white background on hover */
+}
+
+  
+
+  .vision-mission {
+    margin-top: 40px; 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .vision-mission h2 {
+    text-align: center;
+  }
+  
+  .vision-mission p {
+    text-align: justify;
+  }
+  
+
+  
+  .gallery {
+    padding: 20px;
+    
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    max-width: 30%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-container img.active {
+    border-color: #ff0000;
+  }
+/* Previous CSS code remains the same */
+
+.content {
+    padding: 20px;
+  }
+  
+  .content h2 {
+    margin-top: 40px;
+  }
+/* Previous CSS code remains the same */
+
+.booking-form {
+    padding: 20px;
+  }
+  
+  .booking-form h2 {
+    margin-top: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+/* Previous CSS code remains the same */
+
+.contact-info,
+.message-form {
+  padding: 20px;
+}
+
+.contact-info h2,
+.message-form h2 {
+  margin-top: 40px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+#map {
+  width: 100%;
+  height: 300px; /* Set the desired height for your map */
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+.slideshow {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.slide.active {
+  display: block;
+}
+
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .footer {
+    background-color: #2d2c2c; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 40px 0;
+}
+
+.footer h4 {
+    color: #fff; /* Color of the headings */
+}
+
+.footer p {
+    color: #ccc; /* Color of the paragraphs */
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #dbdbdb; /* Color of the links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff; /* Color of the links on hover */
+}
+/* CSS for Rooms and Suites section */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.room {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.room h3 {
+  color: #333;
+}
+
+.room p {
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #009688;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #009688;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #00796b;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.restaurant,
+.bar {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.restaurant h3,
+.bar h3 {
+  color: #333;
+}
+
+.restaurant p,
+.bar p {
+  color: #666;
+  margin-bottom: 15px;
+}
+/* CSS for Activities and Hotel Services sections */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.activity,
+.service {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.activity h3,
+.service h3 {
+  color: #333;
+}
+
+.activity p,
+.service p {
+  color: #666;
+  margin-bottom: 15px;
+}
