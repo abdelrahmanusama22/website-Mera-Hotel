@@ -11,7 +11,6 @@ This is a hotel booking website project built with HTML, CSS, and PHP. The websi
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -78,11 +77,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-For any inquiries, please contact:
-
-- Email: info@MeraHotel.com
-- Phone: +123 456 789
-
-&copy; 2024 Mera Hotel. All rights reserved.
